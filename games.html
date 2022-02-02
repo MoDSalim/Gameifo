@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>GameInfo || Games</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="./fontawesome-free-5.12.1-web/css/all.min.css"
+    />
+    <!-- custom css -->
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+
+  <body>
+    <!-- navbar -->
+
+    <!-- nav-button -->
+    <span class="nav-btn" id="nav-btn">
+      <i class="fas fa-bars"></i>
+    </span>
+    <!-- end of nav-button -->
+
+    <nav class="navbar" id="navbar">
+      <div class="navbar-header">
+        <span class="nav-close" id="nav-close">
+          <i class="fas fa-times"></i>
+        </span>
+      </div>
+      <ul class="nav-items">
+        <li><a href="index.html" class="nav-link">home</a></li>
+        <li><a href="about.html" class="nav-link">about</a></li>
+        <li><a href="game-dev.html" class="nav-link">game-devs</a></li>
+        <li><a href="games.html" class="nav-link">games</a></li>
+      </ul>
+    </nav>
+    <!-- end of navbar -->
+
+    <!-- header -->
+    <header class="header">
+      <div class="banner">
+        <h2>welcome to my</h2>
+        <h1>gaming world</h1>
+        <a href="index.html" class="btn banner-btn">Grind On</a>
+      </div>
+    </header>
+    <!-- end of header -->
+
+    <!-- Games section -->
+    <section>
+      <div class="clearfix section-center">
+        <article>
+          <div class="games-section-title section-title">
+            <h3>Explore</h3>
+            <h2>Our Games</h2>
+          </div>
+        </article>
+        <!-- Game -->
+        <article>
+          <div class="game-pic-info">
+            <div class="game-pic">
+              <img src="./images/sekiro2.jpg" alt="sekiro" class="game-img2" />
+              <!-- icon -->
+              <span class="game-icon">
+                <i class="fas fa-user-ninja fa-fw"></i>
+              </span>
+            </div>
+            <!-- end of icon -->
+            <div class="game-info">
+              <h4>Sekiro</h4>
+
+              <p>
+                In Sekiro™: Shadows Die Twice you are the 'one-armed wolf', a
+                disgraced and disfigured warrior rescued from the brink of
+                death.
+              </p>
+              <a href="games.html" class="btn btn-games">Read more</a>
+            </div>
+          </div>
+        </article>
+        <!-- end ofGame -->
+
+        <!-- Game -->
+        <article>
+          <div class="game-pic-info">
+            <div class="game-pic">
+              <img src="./images/jof2.png" alt="cal" class="game-img2" />
+              <!-- icon -->
+              <span class="game-icon">
+                <i class="fas fa-jedi fa-fw"></i>
+              </span>
+              <!-- end of icon -->
+            </div>
+            <div class="game-info">
+              <h4>Jedi fallen order</h4>
+
+              <p>
+                A galaxy-spanning adventure awaits in Star Wars Jedi: Fallen
+                Order, a new third-person action-adventure title from Respawn.
+              </p>
+              <a href="games.html" class="btn btn-games">Read more</a>
+            </div>
+          </div>
+        </article>
+        <!-- end ofGame -->
+
+        <!-- Game -->
+        <article>
+          <div class="game-pic-info">
+            <div class="game-pic">
+              <img src="./images/botw.jpg" alt="link" class="game-img2" />
+              <!-- icon -->
+              <span class="game-icon">
+                <i class="fas fa-dragon fa-fw"></i>
+              </span>
+              <!-- end of icon -->
+            </div>
+            <div class="game-info">
+              <h4>LOZ: Breath of the wild</h4>
+              <p>
+                Breath of the Wild is an action-adventure game set in an open
+                world where players are tasked with exploring the kingdom of
+                Hyrule
+                <br />
+              </p>
+              <a href="games.html" class="btn btn-games">Read more</a>
+            </div>
+          </div>
+        </article>
+        <!-- end ofGame -->
+      </div>
+    </section>
+    <!--end of Games section -->
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="section-center clearfix">
+        <div class="social-group">
+          <!-- social icon -->
+          <a
+            href="https://www.facebook.com/DaniMilkman/"
+            class="social-icon"
+            target="_blank"
+            ><i class="fab fa-facebook"></i
+          ></a>
+          <!-- end of social icon -->
+
+          <!-- social icon -->
+          <a
+            href="https://twitter.com/danidevyt?lang=en"
+            class="social-icon"
+            target="_blank"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <!-- end of social icon -->
+
+          <!-- social icon -->
+          <a
+            href="https://www.instagram.com/danidevmilk/?hl=en"
+            target="_blank"
+            class="social-icon"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <!-- end of social icon -->
+        </div>
+        <div class="footer-text">
+          <h4>
+            &copy; <span id="date"></span>
+            <span class="company"> GameInfo</span>
+            All rights reserved
+          </h4>
+        </div>
+      </div>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
